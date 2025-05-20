@@ -6,6 +6,10 @@ body {
       color: #fff;
     }
 
+    i {
+      font-size: 2em;
+    }
+
     .container {
       display: flex;
       flex-direction: column;
@@ -20,6 +24,14 @@ body {
       border-radius: 50%;
       object-fit: cover;
       border: 5px solid #00d2ff;
+      box-shadow: 0 0 20px rgba(0, 210, 255, 0.5);
+    }
+    .apresentacao-conteudo img{
+      width: 300px;
+      height: px;
+      border-radius: 10%;
+      object-fit: cover;
+      border: 1px solid #00d2ff;
       box-shadow: 0 0 20px rgba(0, 210, 255, 0.5);
     }
 
